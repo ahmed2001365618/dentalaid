@@ -81,7 +81,7 @@ st.sidebar.markdown(
 def render_chat(hst_conversa):
     for i in range(1, len(hst_conversa)):
         if i % 2 == 0:
-            msg("**PAINe**:" + hst_conversa[i]['content'], key=f"bot_msg_{i}")
+            msg("**DentalAId**:" + hst_conversa[i]['content'], key=f"bot_msg_{i}")
         else:
             msg("**You**:" + hst_conversa[i]['content'], is_user=True, key=f"user_msg_{i}")
 
