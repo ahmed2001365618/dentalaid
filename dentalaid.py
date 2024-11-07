@@ -128,7 +128,7 @@ if text_input_center:
     retorno_openai = openai.ChatCompletion.create(
         model="gpt-4o",
         messages=st.session_state.hst_conversa,
-        max_tokens=500,
+        max_tokens=900,
         n=1
     )
     st.session_state.hst_conversa.append({"role": "assistant", "content": retorno_openai['choices'][0]['message']['content']})
