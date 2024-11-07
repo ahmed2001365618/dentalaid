@@ -93,7 +93,7 @@ st.sidebar.markdown(
         text-align: center;
     }
     </style>
-    <div class="footer">DentaAId enables conversations in over 50 languages. Start chatting in your native language.<br></div>
+    <div class="footer">Dental Trauma Evo enables conversations in over 50 languages. Start chatting in your native language.<br></div>
 
     """,
     unsafe_allow_html=True
@@ -104,7 +104,7 @@ st.sidebar.markdown(
 def render_chat(hst_conversa):
     for i in range(1, len(hst_conversa)):
         if i % 2 == 0:
-            msg("**DentalAId**:" + hst_conversa[i]['content'], key=f"bot_msg_{i}")
+            msg("**DentalTraumaBot**:" + hst_conversa[i]['content'], key=f"bot_msg_{i}")
         else:
             msg("**You**:" + hst_conversa[i]['content'], is_user=True, key=f"user_msg_{i}")
 
