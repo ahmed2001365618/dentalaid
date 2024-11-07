@@ -18,7 +18,7 @@ st.image(logo_url, use_column_width=True)
 abertura = st.write("Hello! I am an AI-powered chatbot here to assist you with the guidance and clinical management of dental trauma. To start our conversation, simply type 'hello' in your native language (e.g., Hi, Oi, Hola, Salut, Hallo, 你好, привет) or enter any information related to dental trauma in the field below.")
 st.sidebar.title("References")
 text_input_center = st.chat_input("Chat with me by typing in the field below")
-condicoes = ("You are a virtual assistant called DentalTraumaPro, and your goal is to assist dentists in managing patients with dental traumas."
+condicoes = ("You are a virtual assistant called DentalTraumaBot, and your goal is to assist dentists in managing patients with dental traumas."
               "Act as a healthcare professional, performing an assessment of the patient."
               "Only respond to questions related to dental traumas. For any other topic, reply that you are not qualified to answer."
 "Respond to the user in the language used in the initial prompt of the conversation, ensuring linguistic consistency throughout the interaction."
