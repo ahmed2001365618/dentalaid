@@ -2,7 +2,7 @@
 
 ## Overview
 
-This repository contains the implementation of **DentalAId**, a specialized chatbot developed to assist dental professionals in the clinical management of dental trauma in permanent teeth. The chatbot provides evidence-based recommendations, designed to enhance decision-making processes regarding diagnosis and prognosis.
+This repository contains the implementation of **Dental Trauma Evo**, a specialized chatbot developed to assist dental professionals in the clinical management of dental trauma in permanent teeth. The chatbot provides evidence-based recommendations, designed to enhance decision-making processes regarding diagnosis and prognosis.
 
 ### Key Features:
 - **Language**: Python (developed using PyCharm 2023.2.3)
