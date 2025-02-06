@@ -1,4 +1,4 @@
-# DentalAId Chatbot - GitHub Repository
+# Dental Trauma Evo Chatbot - GitHub Repository
 
 ## Overview
 
